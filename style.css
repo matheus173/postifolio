@@ -1,0 +1,441 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background-color: black;
+        height: 100vh;
+    }
+
+    .interface {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+
+    h2.titulo {
+
+        color: white;
+        font-size: 38px;
+        text-align: center;
+    }
+
+    h2.titulo span {
+
+        color: red;
+    }
+
+    /* estilo do cabeçalho */
+
+    header {
+
+        padding: 40px 4%;
+    }
+
+
+    header>.interface {
+
+        display: flex;
+        align-items: center;
+
+        justify-content: space-between;
+    }
+
+
+    header a {
+
+        color: rgb(92, 92, 92);
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.2s;
+    }
+
+    header a:hover {
+
+        color: red;
+        transform: scale(1.05);
+    }
+
+    header nav ul {
+
+        list-style-type: none;
+    }
+
+    header nav ul li {
+
+        display: inline-block;
+        padding: 0 40px;
+
+    }
+
+
+
+    header.btn-contato button:hover {
+
+        box-shadow: 0px 0px 8px white;
+    }
+
+
+    /* ESTILO DO TOPO DO SITE */
+
+    section.topo-do-site {
+        padding: 40px 4%;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        /* Alinha os itens verticalmente */
+        width: 100%;
+
+    }
+
+
+    section .topo-do-site .flex {
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    }
+
+    .topo-do-site h1 {
+
+        color: white;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+
+    .topo-do-site .txt-top-site h1 span {
+
+        color: red;
+        font-size: 84px;
+    }
+
+    .topo-do-site .txt-top-site h2 {
+        color: white;
+        margin: 40px 0px;
+        font-size: 20px;
+    }
+
+
+
+    .topo-do-site .txt-top-site p {
+        color: white;
+        margin: 40px 0px;
+        font-size: 15px;
+    }
+
+
+    /* Estilo para o botão de contato */
+    .btn-contato button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: red;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .btn-contato button:hover {
+        box-shadow: 0px 0px 8px white;
+    }
+
+    /* Estilo para o cabeçalho */
+    header .btn-contato button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: red;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    header .btn-contato button:hover {
+        box-shadow: 0px 0px 8px white;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    .name-container {
+        display: inline-block;
+        color: red;
+        text-align: center;
+        margin-right: 90px;
+        /* Ajuste conforme necessário */
+        line-height: 22px;
+    }
+
+    .sobrename {
+        text-align: center;
+        color: red;
+        text-decoration: none;
+        color: white;
+    }
+
+    .fortes {
+        width: 150px;
+        /* Ajuste conforme necessário */
+        margin-right: 20px;
+    }
+
+    .karina {
+        color: red;
+    }
+
+
+
+    /* estilos de especialidades */
+
+    section.Especialidades {
+        padding: 40px 4%;
+
+    }
+
+
+    section.Especialidades .flex {
+
+
+        gap: 60px;
+    }
+
+
+    .Especialidades .box {
+
+        color: white;
+        padding: 40px;
+        height: 400px;
+        margin-top: 45px;
+        border-radius: 20px;
+        transition: 0.7s;
+
+
+    }
+
+    .Especialidades .box:hover {
+
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.32);
+        cursor: pointer;
+    }
+
+    .Especialidades .box i {
+
+        font-size: 70px;
+        color: red;
+
+    }
+
+    .Especialidades .box h3 {
+
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+
+    /* Estilo do formulario de contato */
+
+    section.formulario {
+        padding: 80px 4%;
+    }
+
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+
+    }
+
+
+    form input,
+    form textarea {
+        width: 100%;
+        background-color: rgb(59, 59, 59);
+        border: 0;
+        outline: 0;
+        padding: 20px 15px;
+        border-radius: 20px;
+        color: white;
+        font-size: 18px;
+    }
+
+    form textarea {
+        resize: none;
+        max-height: 200px;
+    }
+
+    form .btn-enviar {
+
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    form .btn-enviar input {
+        width: 120px;
+        background-color: red;
+        color: black;
+        font-weight: 700px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+    form .btn-enviar input:hover {
+
+        box-shadow: 0px 0px 10px white;
+        transform: scale(1.05);
+        transition: 0.8s;
+    }
+
+
+
+
+    /*Planos de adesão */
+
+
+
+    .planos .flex-adesao {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* Alinha os itens verticalmente */
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+
+    }
+
+    .plano {
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        max-width: 300px;
+        min-height: 300px;
+        /* Defina a altura mínima desejada */
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        transition: 0.8s;
+        border: 1px solid white;
+    }
+
+    .plano:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.32);
+        border-color: transparent;
+        /* Faz a borda ficar transparente */
+        transition: transform 0.4s, box-shadow 0.4s, border-color 0.4s;
+        cursor: default
+    }
+
+    .plano .box-header {
+        margin-bottom: 10px;
+    }
+
+    .plano h2 {
+        margin: 10px 0;
+    }
+
+    .plano p {
+        margin: 10px 0;
+        color: white;
+    }
+
+    .plano h1 {
+        margin: 10px 0;
+        color: white;
+    }
+
+    .plano h2 {
+        color: white;
+    }
+
+
+
+    .plano .titulo {
+        margin-bottom: 50px;
+    }
+
+
+
+    .plano .Adquirir {
+
+        margin-top: 30px;
+        text-align: center;
+        color: black;
+        background-color: red;
+        padding: 10px;
+        border-radius: 20px;
+        border: 0;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+
+    /* ESTILO RODAPÉ */
+
+    footer {
+
+        padding: 40px 4%;
+        box-shadow: 0 0 40px 10px #ffffff1d;
+    }
+
+
+    footer .flex {
+
+        justify-content: space-between;
+    }
+
+    .btn-social button {
+
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: black;
+        font-size: 30px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: .2s;
+        color: red;
+    }
+
+    footer .line-footer {
+        padding: 20px 0;
+       
+    }
+
+    .borda {
+        border-top: 2px solid red; 
+    }
+
+    footer .line-footer p i{
+        color: red  ;
+        font-size: 22px;
+    }
+    
+    footer .line-footer p a {
+        color: white;
+        text-decoration: none;
+    }
+    
