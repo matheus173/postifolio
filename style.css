@@ -81,7 +81,7 @@
 
     /* ESTILO DO TOPO DO SITE */
 
-    section.topo-do-site {
+    section .topo-do-site {
         padding: 40px 4%;
     }
 
@@ -126,6 +126,20 @@
         color: white;
         margin: 40px 0px;
         font-size: 15px;
+    }
+
+    .topo-do-site .img-top-site .imagem-karina {
+        width: 420px;
+    }
+
+    .topo-do-site .img-top-site {
+        transition: 0.8s;
+    }
+
+    .topo-do-site .img-top-site:hover {
+        transform: scale(1.05);
+        transition: 0.8s;
+
     }
 
 
@@ -422,20 +436,171 @@
 
     footer .line-footer {
         padding: 20px 0;
-       
+
     }
 
     .borda {
-        border-top: 2px solid red; 
+        border-top: 2px solid red;
     }
 
-    footer .line-footer p i{
-        color: red  ;
+    footer .line-footer p i {
+        color: red;
         font-size: 22px;
     }
-    
+
     footer .line-footer p a {
         color: white;
         text-decoration: none;
     }
+
+    /* sobre mim */
+
+    section .about-me .interface {
+
+        margin: 1280px;
+    }
+
+    section .about-me {
+        padding: 40px 4%;
+    }
+
+    .about-me .flex .txt-about {
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .about-me .flex .txt-about p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        text-align: justify;
+        max-width: 600px;
+    }
+
+    .about-me .flex .txt-about h1 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+
+    .about-me .flex .txt-about h2 {
+        font-size: 50px;
+        line-height: 1;
+        color: red;
+    }
+
+    .about-me .flex .img-about img {
+        width: 420px;
+        margin-left: 50px;
+        margin-right: 60px;
+        border-radius: 50px;
+        box-shadow: 0 0 5px red,
+            0 0 25px red;
+        transition: 0.8s;
+        margin-bottom: 50px;
+
+    }
+
+    .about-me .flex .img-about img:hover {
+        transform: scale(1.05);
+        border-color: transparent;
+        /* Faz a borda ficar transparente */
+        transition: 0.8s;
+        cursor: default;
+    }
+
+
+    .about-me .flex .txt-about .title-txt {
+        margin-bottom: 30px;
+    }
+
+
+    .about-me .flex .txt-about .title-txt span {
+        color: red;
+    }
+
+
+    .about-me .interface .titulo {
+
+        margin-bottom: 80px;
+    }
+
+
+    /* my projects */
+    
+    .projetos .titulo {
+        margin-bottom: 80px;
+    }
+
+    .projetos .flex {
+        display: flex;
+        position: relative; 
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+
+    .projetos .project-txt {
+        background: rgba(0, 0, 1, 0.8);
+        height: 400px;
+        width: 700px;
+        border-radius: 15px;
+        margin: 0;
+        padding: 40px;
+        position: absolute;
+        z-index: 2;
+        box-shadow: 0 0 5px white,
+        0 0 18px white;
+        transition: 0.8s;
+    
+    }
+
+
+    .projetos .project-txt:hover {
+
+        transform: scale(1.05);
+        transition: 0.8s;
+        cursor: default;
+    }
+
+ 
+    .projetos .project-txt p {
+        color: white;
+        margin: 0;
+        margin-top: 10px;
+        font-weight: 700;
+        text-align: justify;
+    }
+    
+    .projetos .project-txt h2 {
+        color: white;
+        font-weight: 700;
+        margin: 0;
+        font-size: 56px;
+        text-align: center;
+    }
+    .projetos .project-txt h2 span {
+        color: red;
+    }
+    
+    .projetos .projects-img {
+        position: relative;
+        left: 450px;
+        top: 0;
+    }
+    
+    .projetos .projects-img img {
+        width: 750px;
+        border-radius: 15px;
+    
+    }
+
+
+    .projetos .project-img-two img {
+        width: 400px;
+        margin-top: 80px;
+    }
+    
+    
+ 
+   
     

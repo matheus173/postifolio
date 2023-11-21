@@ -16,38 +16,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="topo">
 
     <header>
 
         <div class="interface">
             <div class="logo">
                 <img src="./images/logo-fortes-tecnologia.png" alt="logo-fortes-tecnologia" class="fortes">
-                <div class="name-container">
-                    <a href="#">
-                        <h3 class="karina">Karina</h3>
-                        <h3 class="sobrename">Alves</h3>
-                    </a>
-                </div>
             </div>
             <nav class="menu-desktop">
                 <ul>
                     <li>
-                        <a href="#">Início</a>
+                        <a href="#topo">Início</a>
                     </li>
                     <li>
-                        <a href="#">Especialidade</a>
+                        <a href="#especialidades">Especialidade</a>
                     </li>
                     <li>
-                        <a href="#">Sobre </a>
+                        <a href="#sobre">Sobre </a>
                     </li>
                     <li>
-                        <a href="#">Projetos </a>
+                        <a href="#projetos">Projetos </a>
                     </li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato" class="link-contato">
                     <button>Contato</button>
                 </a>
             </div>
@@ -63,14 +57,14 @@
                         <h1>Capacitando você para o mercado de trabalho<span>.</span></h1>
                         <h2>O curso tem o propósito de ajudar a desenvolver a carreira dos profissionais <br> de
                             contabilidade.E eu sou o primeiro degrau! </h2>
-                        <p>Por meio do projeto, contribuímos para a
+                        <p>Contribuímos para a
                             formação de bons profissionais através do conhecimento na <br> prática com as nossas
                             soluções,
                             além de conteúdos focados nas principais estratégias de mercado. <br> Somos o conhecimento
                             que
                             transforma</p>
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#contato" class="link-contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -82,7 +76,7 @@
             </div>
         </section>
 
-        <section class="Especialidades">
+        <section class="Especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -147,7 +141,7 @@
             </div>
         </section>
 
-        <section class="formulario">
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
                 <form action="">
@@ -162,8 +156,74 @@
             </div>
 
         </section>
-    </main>
 
+        <section class="about-me" id="sobre">
+            <div class="interface">
+                <h2 class="titulo">SOBRE <span>MIM...</span></h2>
+                <div class="flex">
+                    <div class="img-about">
+                        <img class="img-about" src="./images/IMG_9709-removebg-preview.png" alt="image">
+                    </div>
+
+                    <div class="txt-about">
+                        <div class="title-txt">
+                            <h1>Olá, me chamo</h1>
+                            <h2>Karina Alves da Silva</h2>
+                        </div>
+                        <p>" E é com imensa satisfação que compartilho um pouco da minha trajetória na Fortes
+                            Tecnologia. Minha jornada nessa renomada empresa é marcada por dedicação, entusiasmo pela
+                            tecnologia e um compromisso incansável com a inovação.
+
+                        <p>E agora, estou empolgada em apresentar algo especial! Estou oferecendo um curso de
+                            capacitação exclusivo para todos aqueles que desejam aprimorar suas habilidades no sistema
+                            Fortes. Este curso abrange desde conceitos fundamentais até recursos avançados,
+                            proporcionando uma imersão completa na plataforma.
+                        </p>
+                        <p>Durante o curso, compartilharei insights valiosos, práticas recomendadas e orientações
+                            práticas, tudo com a abordagem única que desenvolvi ao longo da minha jornada na Fortes.
+                            Seja você um iniciante procurando uma base sólida ou um profissional experiente em busca de
+                            aprimoramento, este curso foi projetado para atender a todos os níveis de expertise.
+                        </p>
+                        <p>Junte-se a mim nessa experiência educacional única e eleve suas habilidades no sistema Fortes
+                            para um novo patamar. Sua jornada de aprendizado começa aqui, e estou comprometida em
+                            torná-la tão enriquecedora e transformadora quanto possível. Espero vê-lo em breve no curso"
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="project-txt">
+                        <h2>MINI <span>CURSO</span></h2>
+                        <p>"Ministrei um mini curso sobre o sistema Fortes na renomada UNIVERSIDADE VALE DO ACARAÚ.
+                            Durante o curso, explorei desde conceitos fundamentais até aplicações avançadas, utilizando
+                            estudos de caso para promover aprendizado prático. A participação ativa dos alunos e a
+                            estrutura abrangente contribuíram para o sucesso do curso, proporcionando uma experiência
+                            enriquecedora. Agradeço à Faculdade UVA pela oportunidade de contribuir para a formação
+                            desses estudantes promissores"</p>
+                    </div>
+
+                    <div class="projects-img">
+                        <img src="./images/curso-uva.jpg" alt="curso">
+                    </div>
+
+                    <div class="project-img-two">
+                        <img src="./images/logo.jpg" alt="logo">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
     <footer>
         <div class="interface">
             <div class="line-footer">
@@ -180,11 +240,14 @@
                 </div>
             </div>
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope"></i><a href="mailto:karinaalves@fortes.com.br"> karinaalves@fortes.com.br</a></p>
+                <p><i class="bi bi-envelope"></i><a href="mailto:karinaalves@fortes.com.br">
+                        karinaalves@fortes.com.br</a></p>
             </div>
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
